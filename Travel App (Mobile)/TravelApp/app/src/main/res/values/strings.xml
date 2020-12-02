@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Travel Planner</string>
+
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Attempt">Number of attempt left: 5</string>
+    <string name="Register">Create Account</string>
+
+    <string name="Flight">Search Flights</string>
+    <string name="Hotel">Search Hotels</string>
+    <string name="Trip">Calendar</string>
+    <string name="Setting">Setting</string>
+    <string name="Back">Go Back</string>
+    <string name="Logout">LogOut</string>
+
+    <string name="Guests">Guests</string>
+    <string name="CheckIn">Check-In Date</string>
+    <string name="CheckOut">Check-Out Date</string>
+
+    <string name="originPlace">Departure</string>
+    <string name="destinationPlace">Destination</string>
+    <string name="outboundDate">Outbound Date</string>
+    <string name="inboundDate">Inbound Date</string>
+    <string name="search">Search</string>
+
+    <string name="view_result">View Result</string>
+
+</resources>
