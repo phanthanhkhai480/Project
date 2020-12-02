@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group12.logintest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FlightResultActivity"
+            android:label="Flight Search Results"></activity>
+        <activity android:name=".HotelResult"
+            android:label="Hotel Search Results"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".FlightActivity"
+            android:label="Flights"/>
+        <activity android:name=".HotelActivity"
+            android:label="Hotels"/>
+        <activity android:name=".TripActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:label="Register"/>
+        <activity android:name=".CalendarActivity"
+            android:label="Calendar"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
