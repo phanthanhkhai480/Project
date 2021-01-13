@@ -1,2 +1,2 @@
 # Project
-Project has been developed from school up to now
+Project has been developed from school and during my own time
